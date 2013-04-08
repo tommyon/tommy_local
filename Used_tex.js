@@ -21,7 +21,7 @@ for ( var i=0, a = oSouImg.NestedObjects.Count; i < a; i++ )
 	var scenePath = ActiveProject.ActiveScene.Parameters('Filename').Value;
 	var BaseName = fs.GetBaseName(scenePath);
 	var FolderPath = fs.GetParentFolderName(scenePath);
-	var TextFilePath = FolderPath + '/' + BaseName + '_MaterialColor.txt';
+	var TextFilePath = FolderPath + '/' + BaseName + '_USE_TEX.txt';
 	var TextCode = fs.CreateTextFile("Z:\\" +BaseName + '_USE_TEX.txt', true, false);
 	for ( u=0 ; u <ohako.count ;  u++)
  		{
