@@ -21,14 +21,6 @@ if(oSel(i).type == "polymsh")
 				{
 				REAL.push(Shaders(r))
 				}
-			if(Shaders(r).name.match(/Sammy_MS_NinjaAttr.*/))
-				{
-				OUT.push(Shaders(r));
-				}
-			if(Shaders(r).name.match(/Sammy_MS_NinjaTexmap.*/))	
-				{
-				COLOR.push(Shaders(r))
-				}
 		}
 	var Red_Ori = REAL[0].Shaders(0).Diffuse.red;
 	var Green_Ori = REAL[0].Shaders(0).Diffuse.Green;
