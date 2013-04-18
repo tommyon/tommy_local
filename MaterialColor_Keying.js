@@ -39,13 +39,13 @@ if(oSel(i).type == "polymsh")
 				{
 					SaveKey(Alfa_Ori, oIn);
 					SaveKey(Alfa_Ori, oOut);
-				}
 					SaveKey(Red_Ori, oIn);
 					SaveKey(Green_Ori, oIn);
 					SaveKey(Blue_Ori, oIn);
 					SaveKey(Red_Ori, oOut);
 					SaveKey(Green_Ori, oOut);
 					SaveKey(Blue_Ori, oOut);
+				}
 		}
 }
 }
