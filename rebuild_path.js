@@ -66,7 +66,7 @@ for(var i = 0; i<ImageClips.count; i++)
                                                             }
                                                   }
                                         var Last = oFileName.lastIndexOf(".");
-                                        var oGetExt = Reb.substring(Last,Reb.Length);
+                                        var oGetExt = oFileName.substring(Last,oFileName.Length);
                                                   switch (oGetExt)
                                                             {
                                                             case ".tga":
