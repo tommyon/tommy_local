@@ -91,7 +91,7 @@ if (Key_st == 0 )//何も押されていない 時
                                    ApplyCns("Scaling", Getimplicit, oSel(a));
                                    ApplyCns("Position", Getimplicit, oSel(a));
                                    SetMarking("kine.local.pos");
-                                   AddToMarking("kine.local.ori");
+                                   AddToMarking("kine.local.scl");
                                    PlotAndApplyActions("", "plot", oStart, oEnd, null, 20, 3, null, null, null, null, true,true);
                                    ClearMarking();
                                    Inbert(Getimplicit);
