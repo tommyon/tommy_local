@@ -1,6 +1,6 @@
 ﻿function XSILoadPlugin( in_reg )
 {
-	in_reg.Author = "t.takeda";
+	in_reg.Author = "tommy_on";
 	in_reg.Name = "OutAction";
 	in_reg.Email = "";
 	in_reg.URL = "";
